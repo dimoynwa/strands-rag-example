@@ -13,9 +13,9 @@ ENV/
 *.log
 *.sqlite3
 
+
 # Jupyter Notebooks
 .ipynb_checkpoints/
-*.ipynb
 
 # VS Code
 .vscode/
