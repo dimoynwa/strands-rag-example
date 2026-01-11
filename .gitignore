@@ -1,0 +1,54 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+ENV/
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Chroma DB
+chroma_db/
+
+# Data files
+*.md
+!data/*.md
+
+data/
+!data/restaurant_bella_luna.md
+!data/restaurant_dragon_palace.md
+!data/restaurant_verde_garden.md
+
+# Misc
+*.bak
+*.tmp
+
+# LangFuse
+langfuse/
+
+# Ignore test outputs
+*.out
+*.test
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore AWS credentials
+.aws/
